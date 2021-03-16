@@ -6,6 +6,13 @@ export const todos = (state = [], action) => {
         text: action.todo,
         completed: false
       }]
+    case 'TOGGLE_COMPLETED':
+      return state.map(todo => {
+        if (action.id === todo.id) {
+          todo.completed = !todo.completed
+        }
+        return todo 
+      })
     default:
       return state
   }

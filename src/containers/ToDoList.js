@@ -1,5 +1,5 @@
 import React from 'react';
-import Todo from '../components/Todo';
+import Todo from './Todo';
 import { connect } from 'react-redux';
 
 const ToDoList = ({todos}) => {

@@ -1,12 +1,10 @@
-### Setup
+### Mod-4 Prework
 
-This app was created using the `create-react-app` boilerplate.
+Practice building an Ideabox in Redux.
 
-#### Install Dependencies
-`npm install`  
+To run:
 
-#### Start Dev Server
-`npm start`  
+- fork or clone this repo
+- `npm install`  
+- `npm start`  
 
-### Run Tests
-`npm test`

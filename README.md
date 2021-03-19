@@ -2,7 +2,7 @@
 
 Practice building an Ideabox in Redux.
 
-To run:
+To run the code:
 
 - fork or clone this repo
 - `npm install`  
